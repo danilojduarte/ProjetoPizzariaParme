@@ -18,13 +18,49 @@
 :root {
   --principal-cinza-color: #33363D;
   --secundaria-laranja-color: #F5831F;
-  --verde-color-: ;
-  --amarelho-color: ;
-  --branco-color: ;
-  --texto-color: ;
+  --branco-color: #fff;
+  --texto-color: #000;
+
+  /* --verde-color-: ;
+  --amarelho-color: ; */
+  
 
   --h1-font: 5rem;
   --h2-font: 4rem;
   --p-font: 1.1rem;
+}
 
+body {
+  background: var(--branco-color);
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 25px 18%;
+  z-index: 1000;
+  transition: all .35s ease;
+}
+.logo img {
+  max-width: 100%;
+  width: 90px;
+  height: auto;
+}
+.navlist {
+  display: flex;
+  align-items: center;
+}
+.navlist a {
+  font-size: var(--p-font);
+  color: var(--texto-color);
+  padding: 10px 28px;
+  font-weight: 700;
+  transition: all .35s ease;
 }
