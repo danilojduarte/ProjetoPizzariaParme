@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  border: none;
+  outline: none;
+}
+
+
+/* FALTA ATRIBUIR A FONT */
+
+:root {
+  --principal-cinza-color: #33363D;
+  --secundaria-laranja-color: #F5831F;
+  --verde-color-: ;
+  --amarelho-color: ;
+  --branco-color: ;
+  --texto-color: ;
+
+  --h1-font: 5rem;
+  --h2-font: 4rem;
+  --p-font: 1.1rem;
+
+}
