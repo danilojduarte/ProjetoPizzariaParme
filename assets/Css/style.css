@@ -16,8 +16,8 @@
 /* FALTA ATRIBUIR A FONT */
 
 :root {
-  --principal-cinza-color: #33363D;
-  --secundaria-laranja-color: #F5831F;
+  --cinza-color: #33363D;
+  --laranja-color: #F5831F;
   --branco-color: #fff;
   --texto-color: #000;
 
@@ -52,6 +52,10 @@ header {
   max-width: 100%;
   width: 90px;
   height: auto;
+  transition: all .32s ease;
+}
+.logo img:hover {
+  transform: scale(1.1);
 }
 .navlist {
   display: flex;
@@ -63,4 +67,35 @@ header {
   padding: 10px 28px;
   font-weight: 700;
   transition: all .35s ease;
+}
+.navlist a:hover {
+  color: var(--laranja-color);
+}
+.navlist a.active {
+  color: var(--laranja-color);
+}
+.navlist a.cart {
+  font-size: 30px;
+}
+#menu-icon {
+  color: var(--texto-color);
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+.top-btn a {
+  display: inline-block;
+  background: var(--texto-color);
+  color: var(--branco-color);
+  padding: 12px 32px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  transition: all .35s ease;
+}
+.top-btn a:hover {
+  background: var(--cinza-color);
+  color: var(--laranja-color);
 }
