@@ -34,7 +34,11 @@ body {
   background: var(--branco-color);
 }
 
-/* HEADER */
+section {
+  padding: 80px 18%;
+}
+
+/* INICIO HEADER */
 header {
   position: fixed;
   width: 100%;
@@ -43,7 +47,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: transparent;
+  background: #f5d3b5;
   padding: 25px 18%;
   z-index: 1000;
   transition: all .35s ease;
@@ -53,6 +57,7 @@ header {
   width: 90px;
   height: auto;
   transition: all .32s ease;
+  border-radius: 50%;
 }
 .logo img:hover {
   transform: scale(1.1);
@@ -99,3 +104,59 @@ header {
   background: var(--cinza-color);
   color: var(--laranja-color);
 }
+
+/* INICIO HOME */
+.home {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 3rem
+}
+.home-texto h1 {
+  margin: 20px 0px 20px;
+  font-size: var(--h1-font);
+  font-weight: 500;
+  font-family: "Pacifico", cursive;
+  line-height: 1.1;
+}
+.home-texto h3 {
+  color: var(--laranja-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+.home-texto p {
+  font-size: var(--p-font);
+  color: var(--cinza-color);
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  background: var(--laranja-color);
+  color: var(--branco-color);
+  padding: 12px 26px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+  transition: all .25s ease;
+}
+.btn:hover {
+  box-shadow: 0px 15px 22px rgba(236, 128, 14, 0.753);
+  color: var(--cinza-color);
+}
+.home-img {
+  padding-top: 8rem;
+}
+.home-img img {
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Nota - Alterar imagem da section home, colocando apenas uma imagem de uma pizza, com fundo transparente
+Ajustar imagem da logo, tornando circular para que possa ser aplicado efeito border-radius 50% */
