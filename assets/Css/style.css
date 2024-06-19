@@ -116,7 +116,9 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  grid-gap: 3rem
+  justify-content: center;
+  grid-gap: 3rem;
+  padding-top: 8rem;
 }
 .home-texto h1 {
   margin: 20px 0px 20px;
@@ -128,8 +130,9 @@ header {
 }
 .home-texto h3 {
   color: var(--branco-color);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 .home-texto p {
   font-size: var(--p-font);
@@ -163,18 +166,19 @@ header {
   color: var(--branco-color);
   font-size: 2rem;
   transition: all .25s ease;
+  cursor: pointer;
 }
 .home .social-links i:hover {
   transform: scale(1.2);
   color: var(--laranja-color);
 }
 .home-img {
-  padding-top: 6rem;
+  padding-top: 4rem;
+  /* align-items: center; */
 }
 .home-img img {
   width: 80%;
   height: auto;
-  border-radius: 20px;
 }
 
 /* Nota - Alterar imagem da section home, colocando apenas uma imagem de uma pizza, com fundo transparente
