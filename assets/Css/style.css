@@ -47,7 +47,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #f5d3b5;
+  background: var(--branco-color);
   padding: 25px 18%;
   z-index: 1000;
   transition: all .35s ease;
@@ -106,6 +106,9 @@ header {
 }
 
 /* INICIO HOME */
+.bg-color {
+  background: var(--texto-color);
+}
 .home {
   height: 90vh;
   width: 100%;
@@ -118,18 +121,19 @@ header {
 .home-texto h1 {
   margin: 20px 0px 20px;
   font-size: var(--h1-font);
+  color: var(--laranja-color);
   font-weight: 500;
   font-family: "Pacifico", cursive;
   line-height: 1.1;
 }
 .home-texto h3 {
-  color: var(--laranja-color);
+  color: var(--branco-color);
   font-size: 20px;
   font-weight: 500;
 }
 .home-texto p {
   font-size: var(--p-font);
-  color: var(--cinza-color);
+  color: var(--branco-color);
   line-height: 27px;
   font-weight: 400;
   margin-bottom: 30px;
@@ -143,14 +147,29 @@ header {
   border: none;
   font-size: 17px;
   font-weight: 700;
+  margin-bottom: 35px;
   transition: all .25s ease;
 }
 .btn:hover {
   box-shadow: 0px 15px 22px rgba(236, 128, 14, 0.753);
   color: var(--cinza-color);
 }
+.home .social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.home .social-links i {
+  color: var(--branco-color);
+  font-size: 2rem;
+  transition: all .25s ease;
+}
+.home .social-links i:hover {
+  transform: scale(1.2);
+  color: var(--laranja-color);
+}
 .home-img {
-  padding-top: 8rem;
+  padding-top: 6rem;
 }
 .home-img img {
   width: 80%;
