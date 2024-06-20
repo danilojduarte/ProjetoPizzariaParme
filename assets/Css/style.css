@@ -103,6 +103,7 @@ header {
   color: var(--laranja-color);
 }
 
+
 /* INICIO HOME */
 .bg-color {
   background: var(--texto-color);
@@ -218,4 +219,11 @@ Ajustar imagem da logo, tornando circular para que possa ser aplicado efeito bor
   font-weight: 400;
   margin-bottom: 30px;
 text-align: justify;
+}
+
+/* Function Sticky para alteração em header */
+header.sticky {
+  background: var(--branco-color);
+  padding: 12px 18%;
+  box-shadow: 0px 0px 1px #cbc3f082;
 }
