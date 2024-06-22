@@ -229,3 +229,20 @@ header.sticky {
 }
 
 /* INICIO SECTION DESTAQUES MENU */
+.center-texto {
+  text-align: center;
+}
+.center-texto h2 {
+  margin: 15px 0px 15px;
+  font-size: var(--h2-font);
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--laranja-color);
+}
+.center-texto h3 {
+  font-size: var(--p-font);
+  color: var(--cinza-color);
+  line-height: 1.1;
+  margin: 15px 0px 15px;
+}
