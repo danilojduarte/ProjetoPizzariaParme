@@ -246,3 +246,11 @@ header.sticky {
   line-height: 1.1;
   margin: 15px 0px 15px;
 }
+.menu-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 4.5rem;
+  cursor: pointer;
+}
