@@ -306,3 +306,7 @@ header.sticky {
 .box:hover {
   transform:  scale(1.04) translateY(-5px);
 }
+.box-btn {
+  text-align: center;
+  margin-top: 5rem;
+}
