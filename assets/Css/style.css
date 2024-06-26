@@ -318,4 +318,47 @@ header.sticky {
 
 
 /* INICIO SECTION EQUIPE */
-
+.equipe-bg {
+  background: var(--laranja-color);
+  width: 100%;
+  height: auto;
+}
+.equipe-content {
+  background: var(--laranja-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 4.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+.equipe-texto h2 {
+  margin: 15px 0px 15px;
+  font-size: var(--h2-font);
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--branco-color);
+}
+.equipe-texto h3 {
+  font-size: var(--p-font);
+  color: var(--cinza-color);
+  line-height: 1.1;
+  margin: 15px 0px 15px;
+}
+.row {
+  background: var(--branco-color);
+  padding: 28px 30px;
+  box-shadow: 0px 5px 40px rgb(19 8 73 / 13%);
+  border-radius: 20px;
+  transition: all .40s ease;
+}
+.equipe-img img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 7px solid var(--laranja-color);
+  margin-bottom: 25px;
+}
