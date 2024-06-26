@@ -326,7 +326,7 @@ header.sticky {
 .equipe-content {
   background: var(--laranja-color);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   grid-gap: 2rem;
   align-items: center;
   margin-top: 4.5rem;
@@ -362,3 +362,6 @@ header.sticky {
   border: 7px solid var(--laranja-color);
   margin-bottom: 25px;
 }
+
+/* Falta ajustar efeito de transição e hover dos cards e texto do titulo da section EQUIPE.
+Alterar texto para Nosso Time! */
