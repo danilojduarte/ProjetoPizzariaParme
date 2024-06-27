@@ -246,6 +246,7 @@ header.sticky {
   color: var(--cinza-color);
   line-height: 1.1;
   margin: 15px 0px 15px;
+  text-transform: capitalize;
 }
 .menu-content {
   display: grid;
@@ -340,12 +341,15 @@ header.sticky {
   font-weight: 500;
   line-height: 1.1;
   color: var(--branco-color);
+  text-align: center;
 }
 .equipe-texto h3 {
   font-size: var(--p-font);
   color: var(--cinza-color);
   line-height: 1.1;
   margin: 15px 0px 15px;
+  text-transform: capitalize;
+  text-align: center;
 }
 .row {
   background: var(--branco-color);
