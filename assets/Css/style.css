@@ -354,9 +354,12 @@ header.sticky {
 .row {
   background: var(--branco-color);
   padding: 28px 30px;
-  box-shadow: 0px 5px 40px rgb(19 8 73 / 13%);
+  box-shadow: 0px 5px 40px rgb(235, 167, 104);
   border-radius: 20px;
   transition: all .40s ease;
+}
+.row:hover {
+  transform:  scale(1.01) translateY(-5px);
 }
 .equipe-img img {
   height: 120px;
@@ -365,6 +368,38 @@ header.sticky {
   border-radius: 50%;
   border: 7px solid var(--laranja-color);
   margin-bottom: 25px;
+}
+.row h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--laranja-color);
+  margin-bottom: 7px;
+}
+.row p {
+  font-size: var(--p-font);
+  color: var(--cinza-color);
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+.equipe-icon i {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background: var(--laranja-color);
+  color: var(--branco-color);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin: 0 7px;
+  transition: all .4s ease;
+}
+.equipe-icon i:hover {
+  transform:  scale(1.04) translateY(-5px);
+  background: var(--branco-color);
+  color: #f5831f;
 }
 
 /* Falta ajustar efeito de transição e hover dos cards e texto do titulo da section EQUIPE.
