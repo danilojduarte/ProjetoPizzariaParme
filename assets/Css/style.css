@@ -404,12 +404,8 @@ header.sticky {
 
 
 /* INICIO ACOMODAÇOES*/
-:root {
-  --background:  #F8F8FF;
-}
-
 .acomodacoes-img {
-  background: var(--background);
+  background: transparent;
   display: grid;
   place-items: center;
   height: 100vh;
@@ -417,14 +413,14 @@ header.sticky {
 
 .gallery {
   display: flex;
-  gap: 1rem;
-  max-width: 80rem;
+  gap: 2rem;
+  max-width: 100%;
 }
 
 .card {
   position: relative;
   left: 0;
-  width: 6rem;
+  width: 8rem;
   border-radius: 1.2rem;
   height: 20rem;
   overflow: hidden;
