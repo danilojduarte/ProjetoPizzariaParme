@@ -408,7 +408,7 @@ header.sticky {
   --background:  #F8F8FF;
 }
 
-body {
+.acomodacoes-img {
   background: var(--background);
   display: grid;
   place-items: center;
